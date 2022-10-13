@@ -1,0 +1,72 @@
+node-flush-write-stream (2.0.0-4) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 15 Sep 2021 16:18:46 +0100
+
+node-flush-write-stream (2.0.0-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Update standards version to 4.4.1, no changes needed.
+  * Update standards version to 4.5.0, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 28 Aug 2021 23:57:50 +0100
+
+node-flush-write-stream (2.0.0-2) unstable; urgency=medium
+
+  * Reupload to unstable
+  * Bump Standards-Version to 4.4.0 and debhelper to 12
+  * Switch install to pkg-js-tools
+
+ -- Utkarsh Gupta <guptautkarsh2102@gmail.com>  Sun, 11 Aug 2019 19:04:37 +0530
+
+node-flush-write-stream (2.0.0-1) experimental; urgency=medium
+
+  [ Utkarsh Gupta ]
+  * New upstream version 2.0.0
+  * Switch test to pkg-js-tools
+  * Update d/copyright
+  * Add myself to uploaders
+
+  [ Xavier Guimard ]
+  * Install example
+
+ -- Utkarsh Gupta <guptautkarsh2102@gmail.com>  Fri, 15 Mar 2019 18:23:11 +0530
+
+node-flush-write-stream (1.0.3-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Pirate Praveen ]
+  * tag patch
+
+  [ Xavier Guimard ]
+  * Add upstream/metadata
+  * New upstream version 1.0.3
+  * Remove patch and use readable-stream as required by upstream
+  * Declare compliance with policy 4.3.0
+  * Update debian/copyright format url
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 17 Jan 2019 22:22:57 +0100
+
+node-flush-write-stream (1.0.2-2) unstable; urgency=medium
+
+  * Team upload
+  * Remove readable-stream and use nodejs native stream
+  * Use salsa.debian.org in Vcs-* fields
+  * Bump debhelper compatibility level to 11
+  * Bump Standards-Version to 4.2.1 (no changes needed)
+  * Enable tests and autopkgtest
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 13 Sep 2018 23:02:57 +0530
+
+node-flush-write-stream (1.0.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #876997)
+
+ -- Preyass Chandran <preyassc@hotmail.com>  Wed, 27 Sep 2017 20:07:02 +0000
