@@ -1,3 +1,23 @@
+node-flush-write-stream (2.0.0-6) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-flush-write-stream: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 22 Nov 2022 14:01:43 +0000
+
+node-flush-write-stream (2.0.0-5) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.0, no changes needed.
+  * Add "Rules-Requires-Root: no"
+  * Modernize debian/watch
+    * Fix filenamemangle
+    * Fix GitHub tags regex
+  * Use dh-sequence-nodejs instead of pkg-js-tools
+  * Drop dependency to nodejs
+
+ -- Yadd <yadd@debian.org>  Wed, 01 Dec 2021 17:19:29 +0100
+
 node-flush-write-stream (2.0.0-4) unstable; urgency=medium
 
   [ Debian Janitor ]

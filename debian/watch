@@ -1,5 +1,5 @@
-version=3
+version=4
 opts=\
-dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
-filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-flush-write-stream-$1.tar.gz/ \
- https://github.com/mafintosh/flush-write-stream/tags .*/archive/v?([\d\.]+).tar.gz
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-flush-write-stream-$1/ \
+ https://github.com/mafintosh/flush-write-stream/tags .*/archive/.*/v?([\d\.]+).tar.gz
